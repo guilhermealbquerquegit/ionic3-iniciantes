@@ -20,14 +20,14 @@
     <ion-avatar item-start>
       <img src="../assets/images/perfil01.jpg">
     </ion-avatar>
-    <h2 class="feed_title">{{nome_usuario}}</h2>
-    <p class="feed_date">Semptember, 2017</p>
+    <h2 class="feed_title">{{object_feed.titulo}}</h2>
+    <p class="feed_date">{{object_feed.data}}</p>
   </ion-item>
 
   <img src="../assets/images/lugar01.jpg">
 
   <ion-card-content>
-    <p>Feliz Aniversário para mim...</p>
+    <p>{{object_feed.desc}}</p>
   </ion-card-content>
 
   <ion-row>
@@ -35,18 +35,18 @@
 
       <button ion-button icon-left clear small>
         <ion-icon name="thumbs-up"></ion-icon>
-        <div>12 Likes</div>
+        <div>{{object_feed.qntd_likes}} Likes</div>
       </button>
     </ion-col>
     <ion-col>
       <button ion-button icon-left clear small>
         <ion-icon name="text"></ion-icon>
-        <div>4 Comments</div>
+        <div>{{object_feed.qntd_comments}} Comments</div>
       </button>
     </ion-col>
     <ion-col center text-center>
       <ion-note>
-        11h ago
+        {{object_feed.time_comment}}
       </ion-note>
     </ion-col>
   </ion-row>
@@ -58,14 +58,14 @@
     <ion-avatar item-start>
       <img src="../assets/images/perfil02.jpg">
     </ion-avatar>
-    <h2 class="feed_title">{{nome_usuario}}</h2>
-    <p class="feed_date">Semptember, 2017</p>
+    <h2 class="feed_title">{{object_feed.titulo}}</h2>
+    <p class="feed_date">{{object_feed.data}}</p>
   </ion-item>
 
   <img src="../assets/images/lugar02.jpg">
 
   <ion-card-content>
-    <p>Feliz Aniversário para mim...</p>
+    <p>{{object_feed.desc}}</p>
   </ion-card-content>
 
   <ion-row>
@@ -73,18 +73,18 @@
 
       <button ion-button icon-left clear small>
         <ion-icon name="thumbs-up"></ion-icon>
-        <div>12 Likes</div>
+        <div>{{object_feed.qntd_likes}} Likes</div>
       </button>
     </ion-col>
     <ion-col>
       <button ion-button icon-left clear small>
         <ion-icon name="text"></ion-icon>
-        <div>4 Comments</div>
+        <div>{{object_feed.qntd_comments}} Comments</div>
       </button>
     </ion-col>
     <ion-col center text-center>
       <ion-note>
-        11h ago
+        {{object_feed.time_comment}}
       </ion-note>
     </ion-col>
   </ion-row>
@@ -96,14 +96,14 @@
     <ion-avatar item-start>
       <img src="../assets/images/perfil03.jpg">
     </ion-avatar>
-    <h2 class="feed_title">{{nome_usuario}}</h2>
-    <p class="feed_date">Semptember, 2017</p>
+    <h2 class="feed_title">{{object_feed.titulo}}</h2>
+    <p class="feed_date">{{object_feed.data}}</p>
   </ion-item>
 
   <img src="../assets/images/lugar03.jpg">
 
   <ion-card-content>
-    <p>Feliz Aniversário para mim...</p>
+    <p>{{object_feed.desc}}</p>
   </ion-card-content>
 
   <ion-row>
@@ -111,18 +111,18 @@
 
       <button ion-button icon-left clear small>
         <ion-icon name="thumbs-up"></ion-icon>
-        <div>12 Likes</div>
+        <div>{{object_feed.qntd_likes}} Likes</div>
       </button>
     </ion-col>
     <ion-col>
       <button ion-button icon-left clear small>
         <ion-icon name="text"></ion-icon>
-        <div>4 Comments</div>
+        <div>{{object_feed.qntd_comments}} Comments</div>
       </button>
     </ion-col>
     <ion-col center text-center>
       <ion-note>
-        11h ago
+        {{object_feed.time_comment}}
       </ion-note>
     </ion-col>
   </ion-row>
