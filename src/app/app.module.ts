@@ -16,6 +16,7 @@ import { IntroPageModule } from "../pages/intro/intro.module";
 import { MoovieProvider } from '../providers/moovie/moovie';
 
 
+
 @NgModule({
   declarations: [
     MyApp,
@@ -43,7 +44,7 @@ import { MoovieProvider } from '../providers/moovie/moovie';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    MoovieProvider
-  ]
+    MoovieProvider 
+   ]
 })
 export class AppModule {}

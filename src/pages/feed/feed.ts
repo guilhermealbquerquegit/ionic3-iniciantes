@@ -48,10 +48,12 @@ export class FeedPage {
     this.moovieProvider.getLatestMovies().subscribe(
       data=>{
           console.log(data);
-      },error=>{
+
+      },error => {
           console.log(error); 
       }  
     )
+    
   }
 
 }
